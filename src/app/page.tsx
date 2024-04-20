@@ -1,3 +1,5 @@
+import Certificate from "./components/certificate";
+import Blog from './components/blogs'
 export default function Home() {
   return (
     <>
@@ -21,6 +23,8 @@ export default function Home() {
           letters, as opposed to using Content here, content here, making it
           look like readable English.
         </p>
+        <Blog />
+        <Certificate />
       </div>
     </>
   );
