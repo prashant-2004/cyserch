@@ -122,7 +122,7 @@ body {
   flex-direction: row;
   width: 100%;
   gap: 2rem;
-  padding: 9rem;
+  padding: 3rem 9rem;
 }
 
 .card {
@@ -131,7 +131,7 @@ body {
   align-items: start;
   flex-direction: column;
   width: 23.375rem;
-  height: 13.8125rem;
+  height: auto;
   border-radius: 0.625rem;
   background: #011c3c;
   padding: 3%;
@@ -166,4 +166,26 @@ body {
   .card-discription {
     font-size: 1rem;
   }
+}
+
+
+
+
+/* Why Choose Us */
+
+.WhyChooseUs {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row;
+  width: 100%;
+  padding: 3rem 9rem;
+}
+
+.div-1{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 50%;
 }
