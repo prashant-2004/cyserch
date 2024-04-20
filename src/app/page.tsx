@@ -1,3 +1,5 @@
+import Certificate from "./components/certificate";
+import Blog from './components/blogs'
 export default function Home() {
   return (
     <>
