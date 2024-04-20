@@ -109,6 +109,61 @@ body {
   }
 
   .div-box2 {
-   display: none;
+    display: none;
+  }
+}
+
+/* Secend cards */
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  gap: 2rem;
+  padding: 9rem;
+}
+
+.card {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 23.375rem;
+  height: 13.8125rem;
+  border-radius: 0.625rem;
+  background: #011c3c;
+  padding: 3%;
+}
+
+.card-discription {
+  color: #a39d9d;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 7%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 2rem;
+    margin-top: -35%;
+  }
+
+  .card {
+    width: 100%;
+    padding: 7%;
+    height: auto;
+    margin-top: -0.5rem;
+  }
+
+  .card-discription {
+    font-size: 1rem;
   }
 }
