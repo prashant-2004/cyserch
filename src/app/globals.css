@@ -14,6 +14,7 @@ body {
   height: 90vh;
   flex-direction: row;
   width: 100%;
+  padding: 9rem;
 }
 
 .div-box1 {
@@ -22,7 +23,6 @@ body {
   align-items: start;
   flex-direction: column;
   width: 50%;
-  padding-left: 9%;
 }
 
 .title {
@@ -76,6 +76,39 @@ body {
   align-items: center;
   height: 90vh;
   flex-direction: row;
-  width: 50%;
-  padding-right: 0%;
+  width: 61%;
+  margin-right: -10rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  .div-boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+    margin-top: 7%;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .discription {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+
+  .div-box1 {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .div-box2 {
+   display: none;
+  }
 }

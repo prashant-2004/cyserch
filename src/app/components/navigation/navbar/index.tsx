@@ -7,7 +7,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
       <div className="w-full h-20">
-        <div className="container mx-auto px-4 h-full">
+        <div className="container mx-auto px-8 h-full">
           <div className="flex justify-between justify-items-center items-center h-full">
             <Logo />
             <button
@@ -27,7 +27,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 />
               </svg>
             </button>
-            <ul className="hidden md:flex gap-x-10 text-white text-[1.1rem]">
+            <ul className="hidden md:flex gap-x-8 text-white text-[1.1rem]">
               <li>
                 <Link href="/">
                   <p className="text-[#19FFDB]">Home</p>
