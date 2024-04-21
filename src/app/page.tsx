@@ -3,8 +3,8 @@ import SecendCards from "./components/home/secendCards";
 import WhyChooseUs from "./components/home/whyChooseUs";
 import Industrys from "./components/home/Industrys";
 import Services from "./components/home/Services";
-import Certificate from "./components/home/certificate";
-import Blog from "./components/home/blog";
+import Certificate from "./components/home/certifications";
+import Blog from "./components/home/blogs";
 export default function Home() {
   return (
     <>
@@ -12,10 +12,10 @@ export default function Home() {
       <Hero />
       <SecendCards />
       <WhyChooseUs />
+      <Certificate />
       <Industrys />
       <Services />
-      {/* <Blog /> */}
-      {/* <Certificate /> */}
+      <Blog />
     </>
   );
 }
