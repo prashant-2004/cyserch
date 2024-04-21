@@ -4,6 +4,7 @@ import CyberSecurity from "../../../../public/icons/Cyber Security.png";
 import Code from "../../../../public/icons/Code.png";
 import SourceCode from "../../../../public/icons/Source Code.png";
 import Website from "../../../../public/icons/Website.png";
+import HIPS from "../../../../public/icons/HIPS.png";
 
 export default function Industrys() {
   return (
@@ -42,6 +43,14 @@ export default function Industrys() {
           <span className="text-[white] text-[2rem] font-bold ">700+</span>
           <span className="text-[#D9D9D9] text-[1rem] font-light">
             DAST Review
+          </span>
+        </div>
+
+        <div className="Industrys-card w-[10rem] flex flex-col justify-center items-center">
+          <Image width={60} height={60} src={HIPS} alt="industry1" />
+          <span className="text-[white] text-[2rem] font-bold ">700+</span>
+          <span className="text-[#D9D9D9] text-[1rem] font-light">
+            IAM Review
           </span>
         </div>
 

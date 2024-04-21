@@ -15,7 +15,7 @@ export default function Home() {
       <Certificate />
       <Industrys />
       <Services />
-      <Blog />
+      {/* <Blog /> */}
     </>
   );
 }

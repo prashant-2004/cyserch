@@ -17,21 +17,16 @@ export default function Services() {
       </h3>
       <div className="Services-cards">
         <div className="services-card">
-          <Image
-            width={73}
-            height={73}
-            src={NetworkSecurity}
-            alt="Protection"
-          />
+          <Image width={73} height={73} src={CloudSecurity} alt="Protection" />
           <h3 className="text-white text-[2.18rem] font-semibold mt-3">
-            Network Security
+            Cloud Security
           </h3>
           <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
-            Protect your organizations digital infrastructure from cyber threats
-            with our comprehensive network security solutions. We offer robust
-            firewall configurations, intrusion detection systems, and continuous
-            monitoring to safeguard your network from unauthorized access and
-            malicious activity.
+            Secure your cloud environment and data against evolving cyber
+            threats with our cloud security solutions. Our services include
+            identity and access management, encryption, data loss prevention,
+            and continuous security monitoring to ensure the confidentiality and
+            compliance of your cloud-based infrastructure.
           </p>
           <span className="text-[#19FFDB] text-[0.9rem] font-medium mt-4 read-more">
             <Link href="/services/network-security">READ MORE {"->"}</Link>
@@ -56,16 +51,16 @@ export default function Services() {
         </div>
 
         <div className="services-card">
-          <Image width={73} height={73} src={CloudSecurity} alt="Protection" />
+          <Image width={73} height={73} src={APISecurity} alt="Protection" />
           <h3 className="text-white text-[2.18rem] font-semibold mt-3">
-            Cloud Security
+           Training
           </h3>
           <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
-            Secure your cloud environment and data against evolving cyber
-            threats with our cloud security solutions. Our services include
-            identity and access management, encryption, data loss prevention,
-            and continuous security monitoring to ensure the confidentiality and
-            compliance of your cloud-based infrastructure.
+            Empower your team with comprehensive cybersecurity training covering
+            threat awareness, secure coding, incident response, and compliance.
+            Whether novice or expert, our customized programs enhance your
+            cybersecurity posture for navigating todays complex digital
+            landscape effectively.
           </p>
           <span className="text-[#19FFDB] text-[0.9rem] font-medium mt-4 read-more">
             <Link href="/services/network-security">READ MORE {"->"}</Link>
@@ -100,6 +95,28 @@ export default function Services() {
             app development practices and mobile device management to mobile
             threat detection and response, we help you fortify your mobile
             ecosystem against malware, data breaches, and other security risks.
+          </p>
+          <span className="text-[#19FFDB] text-[0.9rem] font-medium mt-4 read-more">
+            <Link href="/services/network-security">READ MORE {"->"}</Link>
+          </span>
+        </div>
+
+        <div className="services-card">
+          <Image
+            width={73}
+            height={73}
+            src={NetworkSecurity}
+            alt="Protection"
+          />
+          <h3 className="text-white text-[2.18rem] font-semibold mt-3">
+            Network Security
+          </h3>
+          <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
+            Protect your organizations digital infrastructure from cyber threats
+            with our comprehensive network security solutions. We offer robust
+            firewall configurations, intrusion detection systems, and continuous
+            monitoring to safeguard your network from unauthorized access and
+            malicious activity.
           </p>
           <span className="text-[#19FFDB] text-[0.9rem] font-medium mt-4 read-more">
             <Link href="/services/network-security">READ MORE {"->"}</Link>
