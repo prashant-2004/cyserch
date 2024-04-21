@@ -12,6 +12,8 @@ export default function Hero() {
           needs. Partner with us for reliable protection and peace of mind.
         </p>
         <button className="btn">Schedule a call</button>
+
+        <p className="discription2">Built by the team that has helped secure</p>
       </div>
       <div className="div-box2 fadeRight">
         <img

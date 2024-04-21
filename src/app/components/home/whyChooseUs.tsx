@@ -19,16 +19,13 @@ export default function WhyChooseUs() {
         </p>
         <ul className="mt-6">
           <li className="flex items-center text-[#A39D9D] text-[1.2rem] font-light">
-            <Image src={done} alt="done" className="mr-3" /> Content Delivery
-            Network
+            <Image src={done} alt="done" className="mr-3" /> Top-Notch Cybersecurity Services
           </li>
           <li className="flex items-center text-[#A39D9D] text-[1.2rem] font-light">
-            <Image src={done} alt="done" className="mr-3" /> Malware Detection
-            Removal
+            <Image src={done} alt="done" className="mr-3" /> Expertise in Penetration Testing
           </li>
           <li className="flex items-center text-[#A39D9D] text-[1.2rem] font-light">
-            <Image src={done} alt="done" className="mr-3" /> 24/7 Support And
-            Remote Admit
+            <Image src={done} alt="done" className="mr-3" /> Customized Security Solutions
           </li>
         </ul>
       </div>
