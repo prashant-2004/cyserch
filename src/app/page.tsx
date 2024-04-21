@@ -12,7 +12,7 @@ export default function Home() {
       <SecendCards />
       <WhyChooseUs />
       <Industrys />
-      <Blog />
+      {/* <Blog /> */}
       {/* <Certificate /> */}
     </>
   );

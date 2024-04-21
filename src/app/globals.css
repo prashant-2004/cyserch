@@ -109,7 +109,7 @@ body {
   }
 
   .div-box2 {
-   width: 100%;
+    width: 100%;
   }
 }
 
@@ -146,7 +146,6 @@ body {
   margin-top: 7%;
 }
 
-
 @media screen and (max-width: 768px) {
   .cards {
     display: flex;
@@ -168,9 +167,6 @@ body {
   }
 }
 
-
-
-
 /* Why Choose Us */
 
 .WhyChooseUs {
@@ -182,7 +178,7 @@ body {
   padding: 3rem 9rem;
 }
 
-.div-1{
+.div-1 {
   display: flex;
   justify-content: start;
   align-items: start;
@@ -204,4 +200,34 @@ body {
     padding: 7%;
     margin-top: -0.5rem;
   }
+}
+
+/* Industrys */
+
+.Industrys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 3rem 9rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Industrys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .Industrys-boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    width: 80%;
+  }
+  
 }
