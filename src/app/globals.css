@@ -229,5 +229,61 @@ body {
     padding-top: 10%;
     width: 80%;
   }
-  
+}
+
+/* Services */
+
+.Services {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.Services-cards {
+  display: flex;
+  justify-content: space-between; /* Distributes items evenly in the line */
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  max-width: 100%;
+  padding: 3rem 9rem;
+}
+
+.services-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 0 25%;
+  width: 35rem;
+  height: auto;
+  border-radius: 0.625rem;
+  background: #011c3c;
+  padding: 1%;
+  text-align: center;
+}
+
+.read-more:hover {
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .Services {
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  .Services-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .services-card {
+    width: 100%;
+    padding: 7%;
+    height: auto;
+    margin-top: -0.5rem;
+  }
 }
