@@ -2,9 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+.fadeInUp{
+  animation: fadeInUp 4s;
+}
+
+.fadeInUp2{
+  animation: fadeInUp 6s;
+}
+
+.fadeLeft{
+  animation: fadeInLeft 2s;
+}
+
+.fadeRight{
+  animation: fadeInRight 2s;
+}
+
+.fadeLeft2{
+  animation: fadeInLeft 5s;
+}
+
+.fadeRight2{
+  animation: fadeInRight 5s;
+}
+
+
+
 body {
   background-color: #011631;
   font-family: Inter;
+  overflow-x: hidden;
 }
 
 .div-boxs {
@@ -179,6 +206,14 @@ body {
 }
 
 .div-1 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 60%;
+}
+
+.div-2 {
   display: flex;
   justify-content: start;
   align-items: start;

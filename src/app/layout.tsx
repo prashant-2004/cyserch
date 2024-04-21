@@ -1,5 +1,6 @@
 import Navigation from "./components/navigation";
 import "./globals.css";
+import 'animate.css';
 import { Inter } from "next/font/google";
 
 
