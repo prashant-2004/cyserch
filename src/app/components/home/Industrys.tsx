@@ -8,11 +8,11 @@ import Website from "../../../../public/icons/Website.png";
 export default function Industrys() {
   return (
     <div className="text-center mt-10 Industrys">
-      <h1 className="text-white text-[2.10rem] font-semibold">
+      <h1 className="text-white text-[2.10rem] font-semibold fadeInUp2">
         Trusted Over <span className="text-[#19FFDB]">2300+</span> Industry in
         the World
       </h1>
-      <div className="Industrys-boxs bg-[#011C3C] gap-20 flex container p-7 rounded-xl items-center justify-center mt-10 ">
+      <div className="Industrys-boxs bg-[#011C3C] gap-20 flex container p-7 rounded-xl items-center justify-center mt-10 fadeInUp2">
         <div className="Industrys-card w-[10rem] flex flex-col justify-center items-center">
           <Image width={60} height={60} src={Protection} alt="industry1" />
           <span className="text-[white] text-[2rem] font-bold ">700+</span>

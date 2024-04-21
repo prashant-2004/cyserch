@@ -6,7 +6,7 @@ import CISSP from "../../../../public/icons/CISSP.png";
 export default function Certifications() {
   return (
     <div className="Certifications">
-      <div className="w-1/2 Certifications-div1">
+      <div className="w-1/2 Certifications-div1 fadeLeft2">
         <h1 className="text-white text-[1.65rem] font-semibold">
           Trusted Over 2300 + Industry in the World Class Brands And
           Organizations Of ALL Sizes.
@@ -17,7 +17,7 @@ export default function Certifications() {
           enim
         </p>
       </div>
-      <div className="w-1/2 flex Certifications-div2">
+      <div className="w-1/2 flex Certifications-div2 fadeRight2">
         <Image className="certifications-img" src={OSCP} alt="OSCP" />
         <Image className="certifications-img" src={OSWE} alt="OSW" />
         <Image className="certifications-img" src={CISSP} alt="CISSP" />

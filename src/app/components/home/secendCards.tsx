@@ -5,7 +5,7 @@ import certified from "../../../../public/icons/certified-industry.png";
 
 export default function SecondCards() {
   return (
-    <div className="cards">
+    <div className="cards fadeInUp">
       <div className="card">
         <div className="flex gap-6 items-center">
           <Image src={security} alt="card" />

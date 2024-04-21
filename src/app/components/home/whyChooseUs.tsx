@@ -5,7 +5,7 @@ import hacker from "../../../../public/images/young-hacker.png";
 export default function WhyChooseUs() {
   return (
     <div className="WhyChooseUs">
-      <div className="div-1">
+      <div className="div-1 fadeLeft2">
         <span className="text-[#19FFDB] text-[1.37rem] font-medium mb-4">
           Why Choose Us
         </span>
@@ -34,7 +34,7 @@ export default function WhyChooseUs() {
         </ul>
       </div>
 
-      <div className="div-2">
+      <div className="div-2 fadeRight2">
         <Image src={hacker} alt="hacker" />
       </div>
     </div>
