@@ -109,7 +109,7 @@ body {
   }
 
   .div-box2 {
-    display: none;
+   width: 100%;
   }
 }
 
@@ -153,7 +153,7 @@ body {
     flex-direction: column;
     align-items: start;
     padding: 0 2rem;
-    margin-top: -35%;
+    margin-top: 40%;
   }
 
   .card {
@@ -188,4 +188,20 @@ body {
   align-items: start;
   flex-direction: column;
   width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .WhyChooseUs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .div-1 {
+    width: 100%;
+    padding: 7%;
+    margin-top: -0.5rem;
+  }
 }
