@@ -1,5 +1,5 @@
 import Image from "next/image";
-import done from "../../../../public/icons/done.png";
+import done from "../../../../public/icons/Done.png";
 import hacker from "../../../../public/images/young-hacker.png";
 
 export default function WhyChooseUs() {
