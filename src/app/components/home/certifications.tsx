@@ -8,13 +8,13 @@ export default function Certifications() {
     <div className="Certifications">
       <div className="w-1/2 Certifications-div1 fadeLeft2">
         <h1 className="text-white text-[1.65rem] font-semibold">
-          Trusted Over 2300 + Industry in the World Class Brands And
-          Organizations Of ALL Sizes.
+          Advanced Cybersecurity Certifications: Elevate Your Expertise with
+          OSCP, OSWE, CISSP, and More
         </h1>
         <p className="text-[#D9D9D9] text-[1rem] font-light mt-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod enim tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim
+          By holding advanced cybersecurity certifications like OSCP, OSWE, and
+          CISSP, I ensure top-notch expertise and trusted solutions for your
+          security needs.
         </p>
       </div>
       <div className="w-1/2 flex Certifications-div2 fadeRight2">

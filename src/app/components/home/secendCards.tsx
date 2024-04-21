@@ -14,8 +14,9 @@ export default function SecondCards() {
           </h3>
         </div>
         <p className="card-discription">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Tailored security solutions crafted to fortify your digital
+          infrastructure and protect against evolving cyber threats. Dependable
+          defense.
         </p>
       </div>
 
@@ -27,8 +28,8 @@ export default function SecondCards() {
           </h3>
         </div>
         <p className="card-discription">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Safeguard sensitive data with our advanced privacy measures and
+          compliance solutions. Your information, protected.
         </p>
       </div>
 
@@ -40,8 +41,8 @@ export default function SecondCards() {
           </h3>
         </div>
         <p className="card-discription">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Trust in our industry-certified expertise to fortify defenses and meet
+          regulatory requirements seamlessly. Security assured.
         </p>
       </div>
     </div>

@@ -8,10 +8,8 @@ export default function Hero() {
           Reliable Service
         </h1>
         <p className="discription">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod enim tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip
+          Delivering cutting-edge cybersecurity solutions tailored to your
+          needs. Partner with us for reliable protection and peace of mind.
         </p>
         <button className="btn">Schedule a call</button>
       </div>
