@@ -13,10 +13,9 @@ export default function WhyChooseUs() {
           Provide Advanced Security for Advanced Threat
         </h3>
         <p className="text-[#A39D9D] text-[1.2rem] font-light mt-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod enim tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip
+          Opt for our expert cybersecurity services offering tailored solutions,
+          reliability, and compliance assurance. Safeguard your digital assets
+          with confidence and peace of mind.
         </p>
         <ul className="mt-6">
           <li className="flex items-center text-[#A39D9D] text-[1.2rem] font-light">
