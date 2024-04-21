@@ -287,3 +287,136 @@ body {
     margin-top: -0.5rem;
   }
 }
+
+/* Certifications */
+
+.Certifications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 3rem 9rem;
+
+  background-color: #011c3c;
+}
+
+.certifications-img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.certifications-img:hover {
+  filter: grayscale(0%);
+}
+
+.Certifications-div2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  gap: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Certifications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 15%;
+  }
+
+  .Certifications-div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .Certifications-div2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 10%;
+  }
+
+  .certifications-img {
+    width: 30%;
+    /* padding: 7%; */
+    height: auto;
+    margin-top: -0.5rem;
+  }
+}
+
+/* Blogs */
+
+.Blogs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 9rem;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: space-between; /* Distributes items evenly in the line */
+  flex-wrap: wrap;
+  max-width: 100%;
+  gap: 1rem;
+}
+
+.blog-card {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  flex: 1 0 30%;
+  max-width: 25rem;
+  border-radius: 0.625rem;
+  padding: 2%;
+  background: #011c3c;
+  text-align: start;
+}
+
+.blog-image {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+
+@media screen and (max-width: 768px) {
+  .Blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .blog-card {
+    width: 100%;
+    padding: 7%;
+    height: auto;
+    margin-top: -0.5rem;
+  }
+
+  .blog-image {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+  }
+}
