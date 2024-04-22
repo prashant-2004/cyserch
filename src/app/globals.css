@@ -466,3 +466,24 @@ body {
 }
 
 
+/* Testimonials */
+
+.Testimonials {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  padding: 3rem 9rem;
+}
+
+.testimonial-card{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  border-radius: 0.625rem;
+  background: #011c3c;
+  padding: 3%;
+}
