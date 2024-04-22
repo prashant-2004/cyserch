@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Star from "../../../../public/icons/Star.png";
 
-export default function testimonials() {
+export default function ClinetTestimonials() {
   return (
     <div className="Testimonials">
       <span className="text-[#19FFDB] text-[1.37rem] font-medium mb-4">
