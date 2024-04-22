@@ -23,11 +23,11 @@ export default function Testimonials() {
           </div>
 
           <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             tincidunt, nunc vitae aliquam posuere, risus purus ultricies purus,
             nec tincidunt elit nunc vitae orci. Nulla tincidunt, nunc vitae
             aliquam posuere, risus purus ultricies purus, nec tincidunt elit
-            nunc vitae orci."
+            nunc vitae orci.
           </p>
           <div className="flex items-center mt-4">
             <div className="testimonial-img"></div>
@@ -51,11 +51,11 @@ export default function Testimonials() {
             <Image width={40} height={40} src={Star} alt="start" />
           </div>
           <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             tincidunt, nunc vitae aliquam posuere, risus purus ultricies purus,
             nec tincidunt elit nunc vitae orci. Nulla tincidunt, nunc vitae
             aliquam posuere, risus purus ultricies purus, nec tincidunt elit
-            nunc vitae orci."
+            nunc vitae orci.
           </p>
           <div className="flex items-center mt-4">
             <div className="testimonial-img"></div>
@@ -79,11 +79,11 @@ export default function Testimonials() {
             <Image width={40} height={40} src={Star} alt="start" />
           </div>
           <p className="text-[#A39D9D] text-[1.2rem] font-light mt-4">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             tincidunt, nunc vitae aliquam posuere, risus purus ultricies purus,
             nec tincidunt elit nunc vitae orci. Nulla tincidunt, nunc vitae
             aliquam posuere, risus purus ultricies purus, nec tincidunt elit
-            nunc vitae orci."
+            nunc vitae orci.
           </p>
           <div className="flex items-center mt-4">
             <div className="testimonial-img"></div>
