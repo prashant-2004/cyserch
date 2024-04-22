@@ -4,7 +4,7 @@ import WhyChooseUs from "./components/home/whyChooseUs";
 import Industrys from "./components/home/Industrys";
 import Services from "./components/home/Services";
 import Certificate from "./components/home/certifications";
-import Testimonials from "./components/home/testimonials";
+import Testimonial from "./components/home/testimonials";
 import Blog from "./components/home/blogs";
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <Certificate />
       <Industrys />
       <Services />
-      <Testimonials />
+      <Testimonial />
       <Blog />
     </>
   );
