@@ -476,6 +476,14 @@ body {
   padding: 3rem 9rem;
 }
 
+.testimonial-cards{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
 .testimonial-card{
   display: flex;
   justify-content: start;
@@ -486,4 +494,29 @@ body {
   border-radius: 0.625rem;
   background: #011c3c;
   padding: 3%;
+}
+
+@media screen and (max-width: 768px) {
+  .Testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .testimonial-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 1rem;
+    margin-top: 15%;
+  }
+
+  .testimonial-card {
+    width: 100%;
+    padding: 7%;
+    height: auto;
+    margin-top: -0.5rem;
+  }
 }

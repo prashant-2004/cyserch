@@ -12,7 +12,7 @@ export default function Testimonials() {
         What Client Says About Us
       </h3>
 
-      <div className="flex gap-6">
+      <div className="testimonial-cards">
         <div className="testimonial-card">
           <div className="flex gap-3">
             <Image width={40} height={40} src={Star} alt="start" />
