@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
-import Button from "./Button";
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
+  const [activeLink, setActiveLink] = useState<string | null>(null);
+
+  const handleLinkClick = (link: string) => {
+    setActiveLink(link);
+  };
+
   return (
     <>
       <div className="w-full h-20">
@@ -30,32 +35,80 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
             <ul className="hidden md:flex gap-x-8 text-white text-[1.1rem]">
               <li>
                 <Link href="/">
-                  <p className="text-[#19FFDB]">Home</p>
-                </Link>
-              </li>
-              <li>
-                <Link href="/about">
-                  <p>About Us</p>
+                  <p
+                    className={
+                      activeLink === "/" ? "text-[#19FFDB]" : "text-white"
+                    }
+                    onClick={() => handleLinkClick("/")}
+                  >
+                    Home
+                  </p>
                 </Link>
               </li>
               <li>
                 <Link href="/services">
-                  <p>Services</p>
+                  <p
+                    className={
+                      activeLink === "/services"
+                        ? "text-[#19FFDB]"
+                        : "text-white"
+                    }
+                    onClick={() => handleLinkClick("/services")}
+                  >
+                    Services
+                  </p>
+                </Link>
+              </li>
+              <li>
+                <Link href="/training">
+                  <p
+                    className={
+                      activeLink === "/training"
+                        ? "text-[#19FFDB]"
+                        : "text-white"
+                    }
+                    onClick={() => handleLinkClick("/training")}
+                  >
+                    Training
+                  </p>
+                </Link>
+              </li>
+              <li>
+                <Link href="/about">
+                  <p
+                    className={
+                      activeLink === "/about" ? "text-[#19FFDB]" : "text-white"
+                    }
+                    onClick={() => handleLinkClick("/about")}
+                  >
+                    About Us
+                  </p>
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog">
+                  <p
+                    className={
+                      activeLink === "/blog" ? "text-[#19FFDB]" : "text-white"
+                    }
+                    onClick={() => handleLinkClick("/blog")}
+                  >
+                    Blog
+                  </p>
                 </Link>
               </li>
               <li>
                 <Link href="/contacts">
-                  <p>Training</p>
-                </Link>
-              </li>
-              <li>
-                <Link href="/contacts">
-                  <p>Blog</p>
-                </Link>
-              </li>
-              <li>
-                <Link href="/contacts">
-                  <p>Contacts</p>
+                  <p
+                    className={
+                      activeLink === "/contacts"
+                        ? "text-[#19FFDB]"
+                        : "text-white"
+                    }
+                    onClick={() => handleLinkClick("/contacts")}
+                  >
+                    Contacts
+                  </p>
                 </Link>
               </li>
             </ul>
