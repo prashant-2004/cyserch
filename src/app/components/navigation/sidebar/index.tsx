@@ -66,11 +66,6 @@ const Sidebar = ({
                     </Link>
                   </li>
                   <li className="px-4 py-2">
-                    <Link href="/services/training" onClick={toggle}>
-                      <span className="hover:text-[#19FFDB] cursor-pointer">Training</span>
-                    </Link>
-                  </li>
-                  <li className="px-4 py-2">
                     <Link href="/services/api-security" onClick={toggle}>
                       <span className="hover:text-[#19FFDB] cursor-pointer">API Security</span>
                     </Link>
