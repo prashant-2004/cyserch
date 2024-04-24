@@ -1,16 +1,16 @@
 import Image from "next/image";
-import security from "../../../../public/icons/security.png";
-import privacy from "../../../../public/icons/privacy.png";
-import certified from "../../../../public/icons/certified-industry.png";
+import Education from "../../../../../public/icons/icons8-education-50.png";
+import idea from "../../../../../public/icons/icons8-idea-64.png";
+import online from "../../../../../public/icons/icons8-online-learning-64.png";
 
-export default function SecondCards() {
+export default function TrainingCards() {
   return (
     <div className="cards fadeInUp">
       <div className="card">
         <div className="flex gap-6 items-center">
-          <Image src={security} alt="card" />
+          <Image src={Education} width={50} height={50} alt="card" />
           <h3 className="text-white text-[1.4rem] font-semibold">
-            Security Services
+            Exclusive Coach
           </h3>
         </div>
         <p className="card-discription">
@@ -21,9 +21,9 @@ export default function SecondCards() {
 
       <div className="card">
         <div className="flex gap-6 items-center">
-          <Image src={privacy} alt="card" />
+          <Image src={idea} width={50} height={50} alt="card" />
           <h3 className="text-white text-[1.4rem] font-semibold">
-            Data Privacy
+            Creative Minds
           </h3>
         </div>
         <p className="card-discription">
@@ -34,9 +34,9 @@ export default function SecondCards() {
 
       <div className="card">
         <div className="flex gap-6 items-center">
-          <Image src={certified} alt="card" />
+          <Image src={online} width={50} height={50} alt="card" />
           <h3 className="text-white text-[1.4rem] font-semibold">
-            Industry Certified
+          Video Tutorials
           </h3>
         </div>
         <p className="card-discription">

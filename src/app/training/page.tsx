@@ -1,10 +1,16 @@
 import React from "react";
-import TrainingCom from "../components/training/TrainingPage";
+import Hero from "../components/training/page/hero";
+import StudentStatictics from "../components/training/page/studentStatictic";
+import TrainingCards from "../components/training/page/cards";
+import WhyChooseUs from "../components/training/page/whyUs";
 
 const training = () => {
   return (
     <div>
-      <TrainingCom />
+      <Hero />
+      <StudentStatictics />
+      <TrainingCards />
+      <WhyChooseUs />
     </div>
   );
 };
