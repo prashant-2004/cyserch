@@ -14,7 +14,7 @@ export default function clients() {
         Our Clinets
       </h1>
       <p className="text-[#A39D9D] text-center text-[1.2rem] font-light mt-2">
-        Our awesome clients we've had the pleasure to work with!
+        Our awesome clients we have had the pleasure to work with!
       </p>
       <div className="flex items-center justify-center gap-12 mt-8 logos">
         <Image width={120} height={10} src={HCL} alt="HCL"/>
