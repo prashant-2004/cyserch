@@ -1,11 +1,11 @@
 import Image from "next/image";
-import HCL from "../../../../public/images/HCL_Technologies_1.png"
-import Infosys from "../../../../public/images/infosys.png"
-import IBM from "../../../../public/images/IBM.png"
-import Wipro from "../../../../public/images/Wipro.svg"
-import TCS from "../../../../public/images/TCS Tata Consultancy Services.svg"
-import Cognizant from "../../../../public/images/Cognizant.svg"
-import Ltimindtree from "../../../../public/images/LTIM.NS.svg"
+import HCL from "../../../../../public/images/HCL_Technologies_1.png"
+import Infosys from "../../../../../public/images/infosys.png"
+import IBM from "../../../../../public/images/IBM.png"
+import Wipro from "../../../../../public/images/Wipro.svg"
+import TCS from "../../../../../public/images/TCS Tata Consultancy Services.svg"
+import Cognizant from "../../../../../public/images/Cognizant.svg"
+import Ltimindtree from "../../../../../public/images/LTIM.NS.svg"
 
 export default function clients() {
   return (

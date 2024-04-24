@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../components/training/page/hero";
+import Clients from "../components/training/page/clients";
 import StudentStatictics from "../components/training/page/studentStatictic";
 import TrainingCards from "../components/training/page/cards";
 import WhyChooseUs from "../components/training/page/whyUs";
@@ -10,6 +11,7 @@ const training = () => {
   return (
     <div>
       <Hero />
+      <Clients />
       <StudentStatictics />
       <WhyChooseUs />
       <TrainingCards />

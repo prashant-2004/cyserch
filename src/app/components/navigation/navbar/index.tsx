@@ -4,9 +4,14 @@ import Logo from "./Logo";
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   const [activeLink, setActiveLink] = useState<string | null>(null);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   const handleLinkClick = (link: string) => {
     setActiveLink(link);
+  };
+
+  const toggleDropdown = () => {
+    setShowDropdown(!showDropdown);
   };
 
   return (
@@ -46,18 +51,49 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 </Link>
               </li>
               <li>
-                <Link href="/services">
-                  <p
-                    className={
-                      activeLink === "/services"
-                        ? "text-[#19FFDB]"
-                        : "text-white"
-                    }
-                    onClick={() => handleLinkClick("/services")}
-                  >
+                <div className="relative">
+                  <p className="cursor-pointer" onClick={toggleDropdown}>
                     Services
                   </p>
-                </Link>
+                  {showDropdown && (
+                    <ul className="absolute top-full w-[13rem] pl-4 left-0 opacity-95 bg-gray-800 text-white py-2 rounded">
+                      <li className="mb-2">
+                        <Link href="/services/cloud-security">
+                          <p className="hover:text-[#19FFDB]">Cloud Security</p>
+                        </Link>
+                      </li>
+                      <li className="mb-2">
+                        <Link href="/services/web-security">
+                          <p className="hover:text-[#19FFDB]">Web Security</p>
+                        </Link>
+                      </li>
+                      <li className="mb-2">
+                        <Link href="/services/training">
+                          <p className="hover:text-[#19FFDB]">Training</p>
+                        </Link>
+                      </li>
+                      <li className="mb-2">
+                        <Link href="/services/api-security">
+                          <p className="hover:text-[#19FFDB]">API Security</p>
+                        </Link>
+                      </li>
+                      <li className="mb-2">
+                        <Link href="/services/mobile-security">
+                          <p className="hover:text-[#19FFDB]">
+                            Mobile Security
+                          </p>
+                        </Link>
+                      </li>
+                      <li className="mb-2">
+                        <Link href="/services/network-security">
+                          <p className="hover:text-[#19FFDB]">
+                            Network Security
+                          </p>
+                        </Link>
+                      </li>
+                    </ul>
+                  )}
+                </div>
               </li>
               <li>
                 <Link href="/training">

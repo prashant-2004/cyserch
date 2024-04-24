@@ -1,5 +1,5 @@
 import Hero from "./components/home/hero";
-import Clients from "./components/home/clients";
+import Clients from "./components/home/Built";
 import SecendCards from "./components/home/secendCards";
 import WhyChooseUs from "./components/home/whyChooseUs";
 import Industrys from "./components/home/Industrys";
