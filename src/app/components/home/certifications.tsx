@@ -18,9 +18,9 @@ export default function Certifications() {
         </p>
       </div>
       <div className="w-1/2 flex Certifications-div2 fadeRight2">
-        <Image className="certifications-img" src={OSCP} alt="OSCP" />
-        <Image className="certifications-img" src={OSWE} alt="OSW" />
-        <Image className="certifications-img" src={CISSP} alt="CISSP" />
+        <Image className="certifications-img" width={170} height={170} src={OSCP} alt="OSCP" />
+        <Image className="certifications-img" width={170} height={170} src={OSWE} alt="OSW" />
+        <Image className="certifications-img" width={170} height={170} src={CISSP} alt="CISSP" />
       </div>
     </div>
   );
