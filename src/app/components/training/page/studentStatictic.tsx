@@ -9,11 +9,11 @@ import HIPS from "../../../../../public/icons/HIPS.png";
 export default function StudentStatictics() {
   return (
     <div className="text-center Industrys">
-      <h1 className="text-white text-[2.10rem] font-semibold fadeInUp2">
+      <h1 className="text-white text-[2.10rem] font-semibold fadeInUp">
         Trusted Over <span className="text-[#19FFDB]">700+</span> Students in
         the World
       </h1>
-      <div className="Industrys-boxs bg-[#011C3C] gap-10 flex container p-7 rounded-xl items-center justify-center mt-10 fadeInUp2">
+      <div className="Industrys-boxs bg-[#011C3C] gap-10 flex container p-7 rounded-xl items-center justify-center mt-10 fadeInUp">
         <div className="Industrys-card w-[10rem] flex flex-col justify-center items-center">
           <Image width={50} height={50} src={Students} alt="industry1" />
           <span className="text-[white] text-[2rem] font-bold ">700+</span>
