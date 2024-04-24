@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .fadeInUp{
-  animation: fadeInUp 4s;
+  animation: fadeInUp 2s;
 }
 
 .fadeInUp2{

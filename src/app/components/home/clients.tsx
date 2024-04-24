@@ -9,7 +9,7 @@ import Ltimindtree from "../../../../public/images/LTIM.NS.svg"
 
 export default function clients() {
   return (
-    <div className="bg-[#011c3c] py-10 clients">
+    <div className="bg-[#011c3c] py-10 clients fadeInUp">
       <h1 className="text-white text-center text-[2.18rem] font-semibold">
         Our Clinets
       </h1>
