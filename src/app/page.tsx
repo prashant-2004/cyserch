@@ -1,4 +1,5 @@
 import Hero from "./components/home/hero";
+import Clients from "./components/home/clients";
 import SecendCards from "./components/home/secendCards";
 import WhyChooseUs from "./components/home/whyChooseUs";
 import Industrys from "./components/home/Industrys";
@@ -11,6 +12,7 @@ export default function Home() {
     <>
       <div className="container mx-auto px-4"></div>
       <Hero />
+      <Clients />
       <SecendCards />
       <WhyChooseUs />
       <Certificate />

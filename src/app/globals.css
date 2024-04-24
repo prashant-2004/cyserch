@@ -543,3 +543,22 @@ body {
   text-align: center;
   margin-top: 3%;
 }
+
+
+/* home clients */
+
+.clients{
+  margin-top: 0%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .clients{
+    margin-top: 18%;
+    margin-bottom: -25%;
+  }
+  .logos {
+    display: flex;
+    flex-direction: column;
+  }
+}
