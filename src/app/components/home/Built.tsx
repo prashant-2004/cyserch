@@ -1,11 +1,11 @@
 import Image from "next/image";
-import HCL from "../../../../public/images/HCL_Technologies_1.png";
-import Infosys from "../../../../public/images/infosys.png";
-import IBM from "../../../../public/images/IBM.png";
-import Wipro from "../../../../public/images/Wipro.svg";
-import TCS from "../../../../public/images/TCS Tata Consultancy Services.svg";
-import Cognizant from "../../../../public/images/Cognizant.svg";
-import Ltimindtree from "../../../../public/images/LTIM.NS.svg";
+import amazon from "../../../../public/icons/amazon.svg";
+import microsoft from "../../../../public/icons/microsoft.svg";
+import meta from "../../../../public/icons/meta.svg";
+import apple from "../../../../public/icons/apple.svg";
+import google from "../../../../public/icons/google.svg";
+import adobe from "../../../../public/icons/adobe.svg";
+import netflix from "../../../../public/icons/netflix.svg";
 
 export default function Built() {
   return (
@@ -17,13 +17,13 @@ export default function Built() {
         Built by the team that has helped secure
       </p>
       <div className="flex items-center justify-center gap-12 mt-8 logos">
-        <Image width={120} height={10} src={HCL} alt="HCL" />
-        <Image width={70} height={10} src={Wipro} alt="Wipro" />
-        <Image width={100} height={10} src={Infosys} alt="Infosys" />
-        <Image width={140} height={10} src={TCS} alt="TCS" />
-        <Image width={120} height={10} src={IBM} alt="IBM" />
-        <Image width={120} height={10} src={Cognizant} alt="Cognizant" />
-        <Image width={50} height={10} src={Ltimindtree} alt="Ltimindtree" />
+        <Image width={120} height={10} src={amazon} alt="amazon" />
+        <Image width={120} height={10} src={microsoft} alt="microsoft" />
+        <Image width={80} height={10} src={meta} alt="meta" />
+        <Image width={60} height={10} src={google} alt="google" />
+        <Image width={60} height={10} src={apple} alt="apple" />
+        <Image width={70} height={10} src={adobe} alt="adobe" />
+        <Image width={100} height={10} src={netflix} alt="netflix" />
       </div>
     </div>
   );
