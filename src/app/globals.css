@@ -344,14 +344,14 @@ body {
   background-color: #011c3c;
 }
 
-.certifications-img {
+/* .certifications-img {
   filter: grayscale(100%);
   transition: filter 0.3s ease;
 }
 
 .certifications-img:hover {
   filter: grayscale(0%);
-}
+} */
 
 .Certifications-div2 {
   display: flex;
