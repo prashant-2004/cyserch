@@ -68,11 +68,6 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                         </Link>
                       </li>
                       <li className="mb-2">
-                        <Link href="/services/training">
-                          <p className="hover:text-[#19FFDB]">Training</p>
-                        </Link>
-                      </li>
-                      <li className="mb-2">
                         <Link href="/services/api-security">
                           <p className="hover:text-[#19FFDB]">API Security</p>
                         </Link>
