@@ -1,14 +1,14 @@
 import Image from "next/image";
 import done from "../../../../../public/icons/Done.png";
-import hacker from "../../../../../public/images/young-hacker.png";
+import hacker from "../../../../../public/images/360_F_604704017_zHjlvfNLv06FIw2FulzbhwjOQeYUcGr3.jpg";
 
 export default function WhyChooseUs() {
   return (
     <div className="WhyChooseUs">
-      <div className="trainig-div-2 fadeLeft2">
+      <div className="trainig-div-2 fadeLeft">
         <Image className="trainig-img" src={hacker} alt="hacker" />
       </div>
-      <div className="div-1 pl-8 fadeRight2">
+      <div className="div-1 pl-8 fadeRight">
         <span className="text-[#19FFDB] text-[1.37rem] font-medium mb-4">
           Why Choose Us
         </span>
