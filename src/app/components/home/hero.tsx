@@ -4,8 +4,8 @@ export default function Hero() {
     <div className="div-boxs">
       <div className="div-box1 fadeLeft">
         <h1 className="title">
-          Professional<span className="title-services"> Security</span> With
-          Reliable Service
+          <span className="title-services"> Security</span> You Can Trust,
+          Prices You Can Afford
         </h1>
         <p className="discription">
           Delivering cutting-edge cybersecurity solutions tailored to your

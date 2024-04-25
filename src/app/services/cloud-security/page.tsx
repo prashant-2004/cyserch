@@ -9,8 +9,9 @@ export default function CloudSecurityPage() {
     <>
       <CloudSecurityHero />
       <CloudSecurityOverview />
-      <CloudSecurityMethodology />
       <CloudSecurityClients />
+      <CloudSecurityMethodology />
+     
       <CloudSecurityBenefits />
     </>
   );
