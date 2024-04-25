@@ -54,7 +54,7 @@ const Sidebar = ({
                 Services
               </span>
               {showDropdown && (
-                <ul className=" left-0 w-[25rem] bg-gray-100 text-gray-800 py-2 rounded">
+                <ul className=" left-0 w-[25rem] bg-gray-100 text-gray-800 py-2 rounded z-100">
                   <li className="px-4 py-2">
                     <Link href="/services/cloud-security" onClick={toggle}>
                       <span className="hover:text-[#19FFDB] cursor-pointer">Cloud Security</span>
