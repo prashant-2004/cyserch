@@ -5,6 +5,7 @@ import CloudSecurityBenefits from "@/app/components/services/cloud-security/bene
 import CloudSecurityClients from "@/app/components/services/cloud-security/clients";
 import CloudSecurityOffers from "@/app/components/services/cloud-security/offers";
 import CloudSecurityAwards from "@/app/components/services/cloud-security/awards";
+import WhyCloudPentesting from "@/app/components/services/cloud-security/whyPentest";
 
 export default function CloudSecurityPage() {
   return (
@@ -13,6 +14,7 @@ export default function CloudSecurityPage() {
       <CloudSecurityOverview />
       <CloudSecurityOffers />
       <CloudSecurityAwards/>
+      <WhyCloudPentesting/>
       <CloudSecurityClients />
       <CloudSecurityMethodology />
       <CloudSecurityBenefits />
