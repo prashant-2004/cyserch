@@ -11,7 +11,7 @@ export default function clients() {
   return (
     <div className="bg-[#011c3c] py-10 clients fadeInUp">
       <h1 className="text-white text-center text-[2.18rem] font-semibold">
-        Our Clinets
+        Our Clients
       </h1>
       <p className="text-[#A39D9D] text-center text-[1.2rem] font-light mt-2">
         Our awesome clients we have had the pleasure to work with!
